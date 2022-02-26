@@ -89,6 +89,9 @@ p {
     width: 20px;
     margin-right: 10px;
 } 
+.navbar-nav-right li:nth-child(2){
+    margin:0 5px;
+}
 
 /* buttons */
 .btn {
@@ -109,9 +112,21 @@ p {
     color: #000;
 }
 
+.btn-dark-outline:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+.btn-light-outline {
+    border-color: #fff;
+    color: #fff;
+}
+
 .btn-dark {
     background-color: #000;
-    color: #006241;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background-color: #333;
 }
 
 
