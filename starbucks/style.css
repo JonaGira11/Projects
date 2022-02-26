@@ -32,6 +32,14 @@ p {
     line-height: 1.7;
 } 
 
+img {
+    max-width: 100%;
+}
+
+section a {
+    color:#fff;
+}
+
 /* Navbar */
 .navbar {
     width: 100%;
@@ -93,6 +101,45 @@ p {
     margin:0 5px;
 }
 
+/* box */
+
+
+.box {
+    margin-bottom: 30px;
+}
+
+.box-inner {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* styles for the text in the grid */
+.box-text {
+    max-width: 500px;
+    text-align: center;
+    justify-self: center;
+    padding:20px 0;
+}
+
+.box-text .btn {
+margin-top: 20px;
+}
+
+/* grid styles */
+
+.grid-col-2 {
+display:grid;
+grid-template-columns:repeat(2, 1fr);
+gap: 2rem;
+align-items: center;
+justify-content: space-between;
+}
+
+.grid-reversed :first-child{
+    order:2;
+
+}
+
 /* buttons */
 .btn {
     cursor: pointer; 
@@ -112,7 +159,8 @@ p {
     color: #000;
 }
 
-.btn-dark-outline:hover {
+.btn-dark-outline:hover,
+.btn-light-outline:hover{
     background-color: rgba(0, 0, 0, 0.06);
 }
 .btn-light-outline {
